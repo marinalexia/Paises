@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">World counties</string>
+    <string name="flag_name">"Ελληνική σημαία "</string>
+    <string name="country_name">Ελλάδα</string>
+    <string name="food_name">Moussaka</string>
+    <string name="img_name">Moussaka</string>
+</resources>

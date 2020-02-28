@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Paises"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="bossini.com.br.paises.MainActivity">
+
+    <TextView
+        android:id="@+id/countrytxt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/txt_img_height"
+        android:layout_weight="1"
+        android:contentDescription="@string/country_name"
+        android:gravity="center_horizontal|center"
+        android:text="@string/country_name"
+        android:textColor="@color/country_text_color"
+        android:textSize="@dimen/txt_font_size" />
+
+    <ImageView
+        android:id="@+id/flag_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/txt_img_height"
+        android:layout_weight="2"
+        android:contentDescription="@string/flag_name"
+        android:src="@drawable/brasil_flag" />
+
+    <ImageView
+        android:id="@+id/food_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/txt_img_height"
+        android:layout_weight="2"
+        android:contentDescription="@string/food_name"
+        android:src="@drawable/feijoada" />
+
+    <TextView
+        android:id="@+id/foodtxt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/food_name"
+        android:gravity="center_horizontal|center"
+        android:text="@string/food_name"
+        android:textColor="@color/country_text_color"
+        android:textSize="@dimen/txt_font_size" />
+
+</LinearLayout>

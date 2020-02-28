@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="txt_img_height">0dp</dimen>
+    <dimen name="img">300</dimen>
+    <dimen name="txt_font_size">60</dimen>
+</resources>
